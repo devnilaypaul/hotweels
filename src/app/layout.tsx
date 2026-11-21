@@ -1,8 +1,17 @@
 import Header from "@/components/Header/Header";
 import ThemeProvider from "@/components/Providers/ThemeProvider";
 import { geistMono, geistSans } from "@/lib/fonts";
+import { Metadata } from "next";
 import { ReactNode } from "react";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Hot Wheels",
+    template: "%s | Hot Wheels",
+  },
+  description: "Explore Hot Wheels models, history, and more.",
+};
 
 type RootLayoutProps = {
   children: ReactNode;
