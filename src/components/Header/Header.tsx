@@ -4,14 +4,14 @@ import ThemeToggleButton from "../ThemeToggleButton";
 const Header = () => {
   return (
     <header
-      className="fixed right-0 left-0 border-b shadow"
+      className="border-border/60 bg-background/60 sticky top-0 z-50 h-16 border-b shadow-sm backdrop-blur-xl backdrop-saturate-150"
       aria-label="app-header">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
+      <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-6">
         <Link href={"/"}>
           <h1
             className="text-2xl font-semibold"
-            aria-label="App Name">
-            NSP App
+            aria-label="Hot Wheels">
+            Hot Wheels
           </h1>
         </Link>
 
